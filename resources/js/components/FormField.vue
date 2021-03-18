@@ -6,7 +6,7 @@
 		<form-currency-field v-if="renderComponent" :field="field" :errors="errors" :show-help-text="showHelpText"/>
 	</div>
   <div v-else-if="nova_vue_compontent === 'form-textarea-field'">
-    <form-textarea-field v-if="renderComponent" :field="field" :errors="errors" :show-help-text="showHelpText"/>
+    <form-textarea-field v-if="renderComponent" :field="field" :errors="errors" :show-help-text="showHelpText" rows="20"/>
   </div>
 	<div v-else>
   		<p class="px-8 py-6">
