@@ -1,5 +1,5 @@
 {
-    "name": "marshmallow/prefiller-field",
+    "name": "matzeschmitt/prefiller-field",
     "description": "A Laravel Nova field to prefill fields based on another field. Super Awesome!",
     "keywords": [
         "laravel",
