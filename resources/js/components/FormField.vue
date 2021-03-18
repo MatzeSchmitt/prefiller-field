@@ -2,12 +2,12 @@
 	<div v-if="nova_vue_compontent === 'form-text-field'">
 		<form-text-field v-if="renderComponent" :field="field" :errors="errors" :show-help-text="showHelpText"/>
 	</div>
-  <div v-if="nova_vue_compontent === 'form-textarea-field'">
-    <form-textarea-field v-if="renderComponent" :field="field" :errors="errors" :show-help-text="showHelpText"/>
-  </div>
 	<div v-else-if="nova_vue_compontent === 'form-currency-field'">
 		<form-currency-field v-if="renderComponent" :field="field" :errors="errors" :show-help-text="showHelpText"/>
 	</div>
+  <div v-else-if="nova_vue_compontent === 'form-textarea-field'">
+    <form-textarea-field v-if="renderComponent" :field="field" :errors="errors" :show-help-text="showHelpText"/>
+  </div>
 	<div v-else>
   		<p class="px-8 py-6">
   			The field type <strong>{{ nova_vue_compontent }}</strong> is not implemented yet. Please create an issue or send us a pull request.
