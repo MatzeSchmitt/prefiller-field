@@ -6,7 +6,7 @@ use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Field;
 use Marshmallow\PrefillerField\Traits\Prefillable;
 
-class PrefillerText extends Text
+class PrefillerTextarea extends Text
 {
 	use Prefillable;
 
